@@ -1,23 +1,52 @@
 [custom]
 ;不要随意改变关键字，否则会导致出错
-;acl4SSR规则-在线更新版
+;acl4SSR规则
 
 ;去广告：支持
 ;自动测速：支持
 ;微软分流：支持
 ;苹果分流：支持
-;增强中国IP段：不支持
-;增强国外GFW：不支持
-;多国家分组：支持港/日/美
+;增强中国IP段：支持
+;增强国外GFW：支持
 
-ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+;设置规则标志位
+
+ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+ruleset=🍃 应用净化,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+ruleset=📢 谷歌FCM,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
+
+ruleset=📲 电报消息,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+
+ruleset=📹 油管视频,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
+
+ruleset=🌏 国内媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
+ruleset=🌍 国外媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+ruleset=🌍 国外媒体,https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/Emby.list
+ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+ruleset=🚀 节点选择,https://raw.githubusercontent.com/UlinoyaPed/ShellClash/dev/lists/proxy.list
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/CMBlog.list
 
+ruleset=🍃 应用净化,https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/adobe.list
 
-custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]☑️ 手动切换
+;设置规则标志位
+
+;设置分组标志位
+custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`☑️ 手动切换
 custom_proxy_group=☑️ 手动切换`select`.*
-custom_proxy_group=♻️ 自动选择`url-test`.*`http://www.gstatic.com/generate_204`100,,5
+custom_proxy_group=♻️ 自动选择`url-test`
+custom_proxy_group=📲 电报消息`[]♻️ 自动选择
+oxy_group=📹 油管视频`[]♻️ 自动选择
+custom_proxy_group=🌍 国外媒体`[]♻️ 自动选择
 
+custom_proxy_group=📢 谷歌FCM`[]♻️ 自动选择
+custom_proxy_group=🛑 广告拦截`select`[]REJECT`[]DIRECT
+custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT
+
+;设置分组标志位
 
 enable_rule_generator=true
 overwrite_original_rules=true
+
+;clash_rule_base=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GeneralClashConfig.yml
+
+;luck
