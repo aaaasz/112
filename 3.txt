@@ -20,6 +20,8 @@ ruleset=📹 油管视频,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mast
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+;ruleset=🎯 全球直连,[]GEOIP,LAN
+ruleset=🎯 全球直连,[]GEOIP,CN
 
 
 ;设置规则标志位
@@ -34,7 +36,7 @@ custom_proxy_group=📹 油管视频`select`[]🚀 节点选择
 custom_proxy_group=📢 谷歌FCM`select`[]🚀 节点选择
 custom_proxy_group=🛑 全球拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT
-custom_proxy_group=🎯 全球直连`select`[]🚀 节点选择
+
 
 ;设置分组标志位
 
