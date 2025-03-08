@@ -34,7 +34,7 @@ custom_proxy_group=📹 油管视频`select`[]🚀 节点选择
 custom_proxy_group=📢 谷歌FCM`select`[]🚀 节点选择
 custom_proxy_group=🛑 全球拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT
-
+custom_proxy_group=🎯 全球直连`select`[]🚀 节点选择
 
 ;设置分组标志位
 
