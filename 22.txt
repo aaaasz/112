@@ -34,7 +34,7 @@ custom_proxy_group=📹 油管视频`select`[]🚀 节点选择
 custom_proxy_group=🎥 国外媒体`select`[]🚀 节点选择
 custom_proxy_group=📢 谷歌FCM`select`[]🚀 节点选择
 custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🚀 节点选择
-custom_proxy_group=📡 IP｜测速`select`[]DIRECT
+custom_proxy_group=📡 IP｜测速`select`[]REJECT`[]DIRECT
 custom_proxy_group=🛑 全球拦截`select`[]REJECT`[]DIRECT
 
 ;设置分组标志位
