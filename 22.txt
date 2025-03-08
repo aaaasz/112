@@ -10,25 +10,13 @@
 ;增强国外GFW：支持
 
 ;设置规则标志位
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
-ruleset=🛑 全球拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
-ruleset=🛑 全球拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
-ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
-ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
-ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
-ruleset=🍃 应用净化,https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/adobe.list
-ruleset=🍃 应用净化,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/mphin/ProxyTools/main/rules/LocalAreaNetwork.list
+ruleset=📡 IP｜测速,https://raw.githubusercontent.com/mphin/ProxyTools/main/rules/IpinfoSpeedtest.list
 ruleset=📢 谷歌FCM,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
 ruleset=📲 电报消息,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
 ruleset=📹 油管视频,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
-ruleset=🌍 国外媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
-ruleset=🌍 国外媒体,https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/Emby.list
-;ruleset=🎯 全球直连,[]GEOIP,LAN
+ruleset=🎥 国外媒体,https://raw.githubusercontent.com/mphin/ProxyTools/main/rules/ProxyMedia.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/mphin/ProxyTools/main/rules/GlobalDirect.list
 ruleset=🎯 全球直连,[]GEOIP,CN
 
 ;设置规则标志位
@@ -40,12 +28,10 @@ custom_proxy_group=♻️ 自动选择`url-test`.*`http://www.gstatic.com/genera
 custom_proxy_group=🔮 负载均衡`load-balance`.*`http://www.gstatic.com/generate_204`100
 custom_proxy_group=📲 电报消息`select`[]🚀 节点选择
 custom_proxy_group=📹 油管视频`select`[]🚀 节点选择
-custom_proxy_group=🌍 国外媒体`select`[]🚀 节点选择
+custom_proxy_group=🎥 国外媒体`select`[]🚀 节点选择
 custom_proxy_group=📢 谷歌FCM`select`[]🚀 节点选择
-custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🚀 节点选择`[]♻️ 自动选择
-custom_proxy_group=🛑 全球拦截`select`[]REJECT`[]DIRECT
-custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT
-
+custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🕹 手动切换`[]♻️ 自动选择
+custom_proxy_group=📡 IP｜测速`select`[]DIRECT
 
 ;设置分组标志位
 
