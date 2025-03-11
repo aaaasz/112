@@ -107,7 +107,7 @@ DOMAIN-SUFFIX,njav.tv
 # > MISSAV
 DOMAIN-SUFFIX,missav.ai
 DOMAIN-SUFFIX,missav.ws
-
+DOMAIN-SUFFIX,missav123.com
 # Emby
 # > Misty
 DOMAIN-SUFFIX,misty.cx
