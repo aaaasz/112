@@ -27,7 +27,7 @@ ruleset=🚀 节点选择,https://raw.githubusercontent.com/cutethotw/ClashRule/
 ;设置规则标志位
 
 ;设置分组标志位
-custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]☑️ 手动切换`[]🔮 负载均衡`.*
+custom_proxy_group=🚀 节点选择`select`.*`[]♻️ 自动选择`[]☑️ 手动切换`[]🔮 负载均衡`[]DIRECT
 custom_proxy_group=♻️ 自动选择`url-test`.*`http://www.gstatic.com/generate_204`100,,5
 custom_proxy_group=🔮 负载均衡`load-balance`.*`http://www.gstatic.com/generate_204`100
 custom_proxy_group=📲 电报消息`select`[]🚀 节点选择
